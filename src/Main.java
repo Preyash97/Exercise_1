@@ -4,5 +4,7 @@ public class Main {
         Vehicle vehicle = new Vehicle();
         vehicle.displayInfo();
         System.out.println("Hello world!");
+        Car car = new Car();
+        car.startEngine();
     }
 }
